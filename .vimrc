@@ -54,4 +54,8 @@ set expandtab
 " 検索語をハイライト表示
 set hlsearch
 " ESC連打でハイライト解除
-map <Esc><Esc> :nohlsearch<CR><Esc>
+noremap <Esc><Esc> :nohlsearch<CR><Esc>
+
+" TAB入力でタブ移動
+nnoremap <Tab> gt
+nnoremap <S-Tab> gT
